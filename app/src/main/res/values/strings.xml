@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">BrainBlast</string>
+    <string name="submit_text">Submit</string>
+    <string name="welcome_to_the_cs_section_of_the_game_test_cs_knowledge_goodluck">Welcome to the CS section of the game. Test CS knowledge. GoodLuck!</string>
+    <string name="welcome_to_the_geography_section_of_the_game_test_your_geography_knowledge_goodluck">Welcome to the geography section of the game. Test your geography knowledge. GoodLuck!</string>
+    <string name="welcome_to_the_history_section_of_the_game_test_your_history_knowledge_goodluck">Welcome to the history section of the game. Test your history knowledge. GoodLuck!</string>
+    <string name="history_section">History Section</string>
+    <string name="geography_section">Geography Section</string>
+    <string name="cs_section">CS Section</string>
+    <string name="answer_request_text">"Please enter your answer "</string>
+    <string name="wrong_text">Wrong!</string>
+    <string name="correct_text">Correct</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="radiobutton_request_text">"Please Select a RadioButton "</string>
+    <string name="package_text">android.resource://codetribe.co.za.brainblast/</string>
+    <string name="true_false_text">TF</string>
+    <string name="fill_blank_text">FB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="geo_text">geography</string>
+    <string name="history_text">history</string>
+    <string name="cs_text">CS</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+
+    <string-array name="geoQuestions">
+        <item>The intersecting lines drawn on maps on globes are called  geographic grids</item>
+        <item>The great Victoria Desert is located in_____</item>
+        <item>The smallest continent in the world is______</item>
+        <item>Temperature increases rapidly after_______</item>
+        <item>The largest glaciers are piedmont glaciers</item>
+    </string-array>
+
+    <string-array name="geoAnswers">
+        <item>true</item>
+        <item>Australia</item>
+        <item>ionosphere</item>
+    </string-array>
+
+    <string-array name="historyQuestion">
+        <item>"South Africa got its independence in 1993.</item>
+        <item>______is the King of Swaziland.</item>
+        <item>______ is the first black president of South Africa.</item>
+        <item>The first v8 engine was created by _______</item>
+        <item>All life began in Europe</item>
+    </string-array>
+
+    <string-array name="historyAnswers">
+        <item>false</item>
+        <item>King Mswati III</item>
+        <item>Nelson Mandela</item>
+        <item>Henry Ford</item>
+    </string-array>
+
+    <string-array name="csQuestion">
+        <item>Programmers are said to be the rockstars of the new world</item>
+        <item>Who was the founder, Ceo and President of Microsoft?_____</item>
+        <item>Which is the most popular  programming language?______ </item>
+        <item>"_______ is the leading mobile operating system.</item>
+        <item>Facebook owns snapchat</item>
+    </string-array>
+
+    <string-array name="csAnswer">
+        <item>true</item>
+        <item>Bill Gates</item>
+        <item>Java</item>
+        <item>Android</item>
+        <item>false</item>
+    </string-array>
+</resources>
